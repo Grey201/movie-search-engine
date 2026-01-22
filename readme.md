@@ -1,39 +1,16 @@
-# Поисковик фильмов
+# React + Vite
 
-### О проекте:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Основная функция - поиск фильмов через API по наименованию.
-Профили:
-Возможность создания профилей для разных пользователей в одном браузере.
-Сохранение профилей локально в local storage, а не на сервере.
-Главная страница:
-Ввод названия фильма для поиска.
-Необходимость войти в профиль перед поиском, после чего профиль сохраняется локально.
-Работа с фильмами:
-После поиска по фильму доступ к детальной информации о нем.
-Возможность добавления фильма в избранное, как из детального просмотра, так и из списка найденных.
-Обработка ситуации "фильм не найден".
-Избранное:
-Формирование библиотеки избранных фильмов для каждого профиля.
-Эта библиотека служит рекомендацией для просмотра.
+Currently, two official plugins are available:
 
-### Установка
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-1. Сначала установите Node.js, если у вас его еще нет. Вы можете скачать его с [официального сайта Node.js](https://nodejs.org/).
+## React Compiler
 
-2. Зарегистрируйтесь на Гитхабе
-   Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-3. Клонируйте репозиторий вашего проекта:
-   `git clone https://github.com/ваш_пользователь/ваш_проект.git`
+## Expanding the ESLint configuration
 
-4. Перейдите в каталог проекта:
-   `cd ваш_проект `
-
-5. Установите зависимости с использованием npm:
-   `npm install`
-
-6. Запустите проект:
-   `npm run dev`
-
-7. Откройте ваш браузер по адресу http://localhost:5173/ и вы увидите ваш проект на React.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
