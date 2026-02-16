@@ -1,6 +1,7 @@
 :root {
   --color-gray-50: rgba(235, 238, 245, 1);
   --color-white-100: rgba(255, 255, 255, 1);
+  --color-grey-200: rgba(168, 174, 191, 1);
   --color-gray-300: rgba(142, 149, 169, 1);
   --color-primary: rgba(123, 110, 246, 1);
 }
@@ -12,6 +13,8 @@
   line-height: 24px;
   color: var(--color-gray-300);
   background: #251e62;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -20,4 +23,16 @@ h3,
 h4 {
   color: var(--color-gray-50);
   font-weight: 600;
+}
+
+.container {
+  margin: 0 120px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
