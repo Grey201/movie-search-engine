@@ -9,7 +9,7 @@ export function Title({ tag, children }) {
     case 'h3':
       return <h3 className="h3">{children}</h3>;
     case 'h4':
-      return <h4 className="h3">{children}</h4>;
+      return <h4 className="h4">{children}</h4>;
     default:
       return <></>;
   }
