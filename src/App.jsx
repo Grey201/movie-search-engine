@@ -4,6 +4,8 @@ import { P } from './components/P/P';
 import { Title } from './components/Title/Title';
 import { Header } from './Layout/Header/Header';
 import { Input } from './components/Input/input';
+import { MovieList } from './components/MovieList/MovieList';
+import { movies } from './mocks.js';
 
 const propInput = { icon: '/search-icon.svg', alt: 'Иконка поиска', placeholder: 'Введите название' };
 
@@ -17,6 +19,7 @@ export default function App() {
         <Title tag={'h1'}>Заголовок</Title>
         <Button onClick={onClick}>Кнопка</Button>
         <P>Параграф</P>
+        <MovieList movies={movies} />
       </div>
     </>
   );
