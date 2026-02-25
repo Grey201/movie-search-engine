@@ -1,5 +1,5 @@
-import './P.css';
+import styles from './P.module.css';
 
 export function P({ children }) {
-  return <p className="p">{children}</p>;
+  return <p className={styles['p']}>{children}</p>;
 }
