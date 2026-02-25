@@ -1,9 +1,9 @@
-import './NavItem.css';
+import styles from './NavItem.module.css';
 
 export function NavItem({ children }) {
   return (
-    <li className="item">
-      <a className="link" href="#">
+    <li className={styles['item']}>
+      <a className={styles['link']} href="#">
         {children}
       </a>
     </li>
